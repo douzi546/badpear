@@ -1,0 +1,180 @@
+/* line 2, ../myproject/sass/details.scss */
+.breadcrumb-style {
+  font-size: 18px;
+  padding: 2.7em 0;
+}
+
+/* line 6, ../myproject/sass/details.scss */
+.detail-page {
+  padding: 50px 0;
+  min-height: 598px;
+  position: relative;
+}
+/* line 11, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-content: center;
+}
+/* line 17, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-img-wrap {
+  width: 50%;
+  padding: 0 15px;
+}
+/* line 21, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-img-wrap .main-img-con img {
+  width: 100%;
+  height: 598px;
+  border: 2px solid #eee;
+}
+/* line 27, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-img-wrap .page-img-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+  justify-content: space-between;
+  text-align: center;
+}
+/* line 33, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-img-wrap .page-img-list .page-img-item {
+  width: 20%;
+  padding: 16px 8px 0;
+}
+/* line 36, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-img-wrap .page-img-list .page-img-item img {
+  border: 2px solid #eee;
+  width: 100%;
+  height: 100%;
+}
+/* line 41, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-img-wrap .page-img-list .page-img-item img:hover {
+  border: 2px solid #000;
+}
+/* line 47, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap {
+  width: 50%;
+  padding: 0 15px;
+}
+/* line 50, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap h4 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  padding: 0 10px;
+  line-height: 1.6em;
+  color: #222;
+}
+/* line 58, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .subtitle {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+/* line 62, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .info-item {
+  margin-top: 40px;
+  padding: 0 10px;
+}
+/* line 67, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .rating-style .star {
+  display: inline-block;
+  color: #000;
+  font-size: 15px;
+  margin-right: -1px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+/* line 75, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .rating-style .star::before {
+  content: '\F006';
+  font-family: FontAwesome, sans-serif;
+}
+/* line 79, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .rating-style .star.active::before {
+  content: '\F005';
+  font-family: FontAwesome, sans-serif;
+}
+/* line 83, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .rating-style .active {
+  color: #000;
+}
+/* line 87, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .price {
+  padding: 0 10px;
+}
+/* line 89, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .price span {
+  color: #191919;
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 3px;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+}
+/* line 100, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .count .count-box {
+  display: flex;
+  width: 100px;
+  height: 38px;
+  border: 1px solid #e2e2e2;
+  font-weight: 700;
+  color: #191919;
+  text-align: center;
+  line-height: 35px;
+}
+/* line 109, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .count .count-box .count-down,
+.detail-page .intro-wrap .row .page-info-wrap .count .count-box .count-up {
+  width: 33%;
+  cursor: pointer;
+}
+/* line 114, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .count .count-box .count-num {
+  width: 33%;
+  text-indent: 10px;
+}
+/* line 121, ../myproject/sass/details.scss */
+.detail-page .intro-wrap .row .page-info-wrap .add-cart .add-cart-btn {
+  width: auto;
+  display: inline-block;
+  padding: 0 13px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  height: 36px;
+  line-height: 36px;
+}
+/* line 135, ../myproject/sass/details.scss */
+.detail-page .detail-wrap {
+  margin-top: 100px;
+}
+/* line 138, ../myproject/sass/details.scss */
+.detail-page .detail-wrap .detail-tab-con ul {
+  border-bottom: 1px solid #101010;
+}
+/* line 140, ../myproject/sass/details.scss */
+.detail-page .detail-wrap .detail-tab-con ul li {
+  width: auto;
+  display: inline-block;
+  padding: 0 20px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+/* line 153, ../myproject/sass/details.scss */
+.detail-page .detail-wrap .detail-con {
+  padding-top: 20px;
+  text-align: center;
+  background: #fff;
+}
+/* line 157, ../myproject/sass/details.scss */
+.detail-page .detail-wrap .detail-con img {
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}

@@ -1,0 +1,776 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 9, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 29, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 40, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 47, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 11, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 19, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 9, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a {
+  background: transparent;
+}
+
+/* line 15, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 9, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 15, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 22, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 29, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 36, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 43, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 49, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 57, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 61, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+img {
+  border: 0;
+}
+
+/* line 15, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 9, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 15, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 23, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 29, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 15, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 27, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button {
+  overflow: visible;
+}
+
+/* line 36, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 47, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 57, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 64, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 73, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input {
+  line-height: normal;
+}
+
+/* line 83, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type='checkbox'],
+input[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 93, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 102, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type='search'] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 113, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 120, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 129, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 136, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 143, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 9, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 4, ../myproject/sass/common.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, ../myproject/sass/common.scss */
+html {
+  height: 100%;
+}
+
+/* line 12, ../myproject/sass/common.scss */
+body {
+  min-width: 1226px;
+  min-height: 100%;
+}
+
+/* line 17, ../myproject/sass/common.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 21, ../myproject/sass/common.scss */
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* line 25, ../myproject/sass/common.scss */
+input {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+/* line 30, ../myproject/sass/common.scss */
+em,
+i {
+  font-style: normal;
+}
+
+/* line 34, ../myproject/sass/common.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 37, ../myproject/sass/common.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 40, ../myproject/sass/common.scss */
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+  line-height: 0;
+  visibility: hidden;
+  height: 0;
+}
+
+/* line 50, ../myproject/sass/common.scss */
+.w1226 {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+/* line 54, ../myproject/sass/common.scss */
+.col-grid-4 {
+  float: left;
+  width: 33.3333333%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 60, ../myproject/sass/common.scss */
+.col-grid-3 {
+  float: left;
+  width: 25%;
+}
+
+/* line 64, ../myproject/sass/common.scss */
+.col-grid-8 {
+  float: left;
+  width: 66.6666666%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 70, ../myproject/sass/common.scss */
+.col-grid-12 {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 75, ../myproject/sass/common.scss */
+.top-space {
+  padding-top: 40px;
+}
+
+/* line 79, ../myproject/sass/common.scss */
+.item-rating {
+  color: #fff;
+}
+/* line 81, ../myproject/sass/common.scss */
+.item-rating .star {
+  display: inline-block;
+  color: #e2e2e2;
+  font-size: 12px;
+  margin-right: -1px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+/* line 89, ../myproject/sass/common.scss */
+.item-rating .star::before {
+  content: '\F005';
+  font-family: FontAwesome, sans-serif;
+}
+/* line 93, ../myproject/sass/common.scss */
+.item-rating .active {
+  color: tomato;
+}
+
+/* line 98, ../myproject/sass/common.scss */
+.user-header {
+  height: 45px;
+  font-family: '黑体', sans-serif;
+  background-color: #101010;
+  color: white;
+}
+/* line 103, ../myproject/sass/common.scss */
+.user-header .top {
+  height: 45px;
+  line-height: 45px;
+}
+/* line 108, ../myproject/sass/common.scss */
+.user-header .left li {
+  float: left;
+  color: #ccc;
+}
+/* line 111, ../myproject/sass/common.scss */
+.user-header .left li a {
+  display: block;
+  color: white;
+  font-size: 14px;
+  padding: 0 8px;
+}
+/* line 120, ../myproject/sass/common.scss */
+.user-header .right .cart {
+  position: relative;
+}
+/* line 123, ../myproject/sass/common.scss */
+.user-header .right .cart > a {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 9px;
+  margin-left: 20px;
+}
+/* line 129, ../myproject/sass/common.scss */
+.user-header .right .cart > a .cart-num {
+  position: absolute;
+  top: -11px;
+  right: 3px;
+  font-size: 12px;
+}
+/* line 136, ../myproject/sass/common.scss */
+.user-header .right .user .link {
+  color: #ccc;
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* line 142, ../myproject/sass/common.scss */
+.user-header .right .user .link:hover {
+  color: #fff;
+}
+
+/* line 147, ../myproject/sass/common.scss */
+.site-header {
+  height: 100px;
+  line-height: 100px;
+  background-color: #fff;
+  font-family: '黑体', sans-serif;
+  box-shadow: 0 3px 12px #f0f0f0;
+  border-bottom: 2px solid #f6f6f6;
+  z-index: 998;
+}
+/* line 155, ../myproject/sass/common.scss */
+.site-header .logo {
+  float: left;
+  padding: 0 8px;
+  margin: 0;
+}
+/* line 160, ../myproject/sass/common.scss */
+.site-header .nav {
+  float: left;
+  position: relative;
+}
+/* line 163, ../myproject/sass/common.scss */
+.site-header .nav li {
+  float: left;
+}
+/* line 165, ../myproject/sass/common.scss */
+.site-header .nav li a {
+  display: block;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0 10px;
+  margin-right: 20px;
+}
+/* line 173, ../myproject/sass/common.scss */
+.site-header .nav li a:hover {
+  color: #757575;
+}
+/* line 176, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu {
+  position: absolute;
+  width: 1105px;
+  height: 0;
+  background-color: #fff;
+  right: -243px;
+  transition: 0.3s all;
+  overflow: hidden;
+  z-index: 998;
+}
+/* line 185, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu .mega-menu-box {
+  padding: 7px 25px;
+  line-height: normal;
+  text-align: left;
+}
+/* line 189, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu .mega-menu-box dt {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+/* line 194, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu .mega-menu-box dd {
+  position: relative;
+}
+/* line 196, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu .mega-menu-box dd a {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+/* line 203, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu .mega-menu-box dd span.icon {
+  position: absolute;
+  right: 10px;
+  height: 16px;
+  line-height: 10px;
+  padding: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+/* line 212, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu .mega-menu-box dd .news {
+  background-color: #32cd32;
+}
+/* line 215, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu .mega-menu-box dd .hots {
+  background-color: #e23a3a;
+}
+/* line 220, ../myproject/sass/common.scss */
+.site-header .nav li .flat-mega-menu img {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+/* line 226, ../myproject/sass/common.scss */
+.site-header .nav li.web-navigation:hover > .flat-mega-menu {
+  height: 255px;
+}
+/* line 230, ../myproject/sass/common.scss */
+.site-header .search {
+  position: relative;
+}
+/* line 232, ../myproject/sass/common.scss */
+.site-header .search .search-input {
+  height: 35px;
+  width: 270px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-indent: 34px;
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: #333;
+}
+/* line 243, ../myproject/sass/common.scss */
+.site-header .search .search-input:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+/* line 247, ../myproject/sass/common.scss */
+.site-header .search .search-button {
+  position: absolute;
+  top: 1px;
+  left: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 254, ../myproject/sass/common.scss */
+.site-header .search .xiaomi {
+  position: absolute;
+  height: 20px;
+  line-height: 20px;
+  right: 10px;
+  top: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #000;
+  padding: 0 7px;
+}
+/* line 268, ../myproject/sass/common.scss */
+.site-header img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* line 274, ../myproject/sass/common.scss */
+.top-fix {
+  position: fixed;
+  width: 100%;
+  top: -45px;
+}
+
+/* line 279, ../myproject/sass/common.scss */
+footer {
+  width: 100%;
+  background: #101010;
+  text-align: center;
+  color: #b5b5b5;
+}
+/* line 285, ../myproject/sass/common.scss */
+footer .footer-widgets .menu-list {
+  padding: 20px 0;
+}
+/* line 287, ../myproject/sass/common.scss */
+footer .footer-widgets .menu-list dt {
+  font-size: 14px;
+  font-weight: 700;
+}
+/* line 291, ../myproject/sass/common.scss */
+footer .footer-widgets .menu-list dd {
+  margin: 0 auto;
+  width: 55px;
+}
+/* line 294, ../myproject/sass/common.scss */
+footer .footer-widgets .menu-list dd a {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 13px;
+  color: #b5b5b5;
+}
+/* line 303, ../myproject/sass/common.scss */
+footer .footer-site {
+  padding: 10px 0;
+}
+/* line 305, ../myproject/sass/common.scss */
+footer .footer-site p {
+  color: #f3f3f3;
+  font-size: 14px;
+}
+
+/* line 311, ../myproject/sass/common.scss */
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+/* line 315, ../myproject/sass/common.scss */
+.gotop {
+  position: fixed;
+  bottom: 209px;
+  right: 20px;
+  z-index: 99;
+  transition: 0.3s all;
+  transform: translate(99px);
+}
+/* line 322, ../myproject/sass/common.scss */
+.gotop i {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+/* line 328, ../myproject/sass/common.scss */
+.tiptest {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 334, ../myproject/sass/common.scss */
+#tip {
+  position: absolute;
+  z-index: 1000;
+  color: #fff;
+  font: normal normal 0.8em/40px Verdana, Arial, Helvetica, sans-serif;
+  background-color: #000;
+  text-align: center;
+  height: 0;
+  width: 0;
+  border-radius: 3px;
+}
+/* line 344, ../myproject/sass/common.scss */
+#tip #tipbody {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  width: 80px;
+  display: block;
+}
+/* line 352, ../myproject/sass/common.scss */
+#tip #tipdelta {
+  position: absolute;
+  border: 8px solid transparent;
+  transition: 1s all;
+}
+/* line 357, ../myproject/sass/common.scss */
+#tip #tipdelta.tip-bottom {
+  top: -8px;
+  left: 3px;
+  border-right-color: #000;
+}
+/* line 362, ../myproject/sass/common.scss */
+#tip #tipdelta.tip-right {
+  top: 9px;
+  left: -8px;
+  border-bottom-color: #000;
+}
+
+/* line 369, ../myproject/sass/common.scss */
+.breadcrumb {
+  font-family: '黑体', sans-serif;
+  background-color: #101010;
+  color: white;
+  text-align: left;
+}
+/* line 374, ../myproject/sass/common.scss */
+.breadcrumb ol {
+  padding: 0 8px;
+}
+/* line 376, ../myproject/sass/common.scss */
+.breadcrumb ol li {
+  float: left;
+  padding: 0 12px;
+  position: relative;
+}
+/* line 380, ../myproject/sass/common.scss */
+.breadcrumb ol li a {
+  color: white;
+}
+/* line 384, ../myproject/sass/common.scss */
+.breadcrumb ol li::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -5px;
+  width: 5px;
+  height: 5px;
+  background: #616161;
+  transform: rotate(45deg);
+}
+/* line 394, ../myproject/sass/common.scss */
+.breadcrumb ol li:first-child {
+  padding-left: 0;
+}
+/* line 397, ../myproject/sass/common.scss */
+.breadcrumb ol li:first-child::before {
+  display: none;
+}
+.breadcrumb-style {
+  font-size: 14px;
+  padding: 1.2em 0;
+}
+
+.cart-page {
+  padding: 50px 0;
+  text-align: center;
+}
+.cart-page .empty-label {
+  padding-top: 380px;
+  background-image: url(http://badpear-1300271589.cos.ap-shanghai.myqcloud.com/images/cart-empt.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cart-page .empty-label h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #8d8d8d;
+  margin-bottom: 17px;
+}

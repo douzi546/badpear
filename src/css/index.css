@@ -1,0 +1,440 @@
+/* line 2, ../myproject/sass/index.scss */
+.slide-banner {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* line 5, ../myproject/sass/index.scss */
+.slide-banner .lunbotu {
+  width: 100%;
+  height: 860px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 11, ../myproject/sass/index.scss */
+.slide-banner .lunbotu .imagelist {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 17, ../myproject/sass/index.scss */
+.slide-banner .lunbotu .imagelist ul {
+  list-style: none;
+}
+/* line 20, ../myproject/sass/index.scss */
+.slide-banner .lunbotu .imagelist li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+/* line 26, ../myproject/sass/index.scss */
+.slide-banner .lunbotu .imagelist .first {
+  opacity: 1;
+}
+/* line 29, ../myproject/sass/index.scss */
+.slide-banner .lunbotu .yuanlist {
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+/* line 36, ../myproject/sass/index.scss */
+.slide-banner .lunbotu .yuanlist li {
+  margin-bottom: 10px;
+  font-size: 21px;
+  display: block;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+/* line 43, ../myproject/sass/index.scss */
+.slide-banner .lunbotu .yuanlist .currentc {
+  text-decoration: underline;
+}
+/* line 46, ../myproject/sass/index.scss */
+.slide-banner h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 85px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  text-transform: uppercase;
+  user-select: none;
+}
+/* line 56, ../myproject/sass/index.scss */
+.slide-banner h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0;
+  word-spacing: 1px;
+}
+/* line 63, ../myproject/sass/index.scss */
+.slide-banner h3 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+/* line 70, ../myproject/sass/index.scss */
+.slide-banner a {
+  border-bottom: 1px solid #d8d8d8;
+  color: #fff;
+  display: inline-block;
+  font-family: Oswald, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  padding-bottom: 3px;
+  text-transform: capitalize;
+  cursor: pointer;
+  user-select: none;
+}
+/* line 83, ../myproject/sass/index.scss */
+.slide-banner .now {
+  z-index: 1;
+}
+/* line 87, ../myproject/sass/index.scss */
+.slide-banner .one .slide-text {
+  position: absolute;
+  bottom: 14%;
+  left: 36%;
+  text-align: center;
+}
+/* line 92, ../myproject/sass/index.scss */
+.slide-banner .one .slide-text h1 {
+  transition: 1s all;
+  transform: translateY(100px);
+  opacity: 0;
+}
+/* line 98, ../myproject/sass/index.scss */
+.slide-banner .one.now .slide-text h1 {
+  opacity: 1;
+  transform: none;
+}
+/* line 103, ../myproject/sass/index.scss */
+.slide-banner .two .slide-text {
+  position: absolute;
+  bottom: 18%;
+  left: 20%;
+}
+/* line 107, ../myproject/sass/index.scss */
+.slide-banner .two .slide-text h1 {
+  transition: 1s all;
+  opacity: 0;
+}
+/* line 111, ../myproject/sass/index.scss */
+.slide-banner .two .slide-text a {
+  transition: 1.5s all;
+  opacity: 0;
+}
+/* line 116, ../myproject/sass/index.scss */
+.slide-banner .two.now .slide-text h1 {
+  transform: translateY(-150px);
+  opacity: 1;
+}
+/* line 120, ../myproject/sass/index.scss */
+.slide-banner .two.now .slide-text a {
+  transform: translateY(-150px);
+  opacity: 1;
+}
+/* line 125, ../myproject/sass/index.scss */
+.slide-banner .three .slide-text {
+  position: absolute;
+  bottom: 36%;
+  right: 10%;
+  text-align: right;
+}
+/* line 131, ../myproject/sass/index.scss */
+.slide-banner .three .slide-text h3 {
+  transition: 1s all;
+  transform: translateY(50px);
+  opacity: 0;
+}
+/* line 136, ../myproject/sass/index.scss */
+.slide-banner .three .slide-text h1 {
+  transition: 1s all;
+  transform: translateX(800px);
+  opacity: 0;
+}
+/* line 142, ../myproject/sass/index.scss */
+.slide-banner .three.now .slide-text h3 {
+  transform: none;
+  opacity: 1;
+}
+/* line 146, ../myproject/sass/index.scss */
+.slide-banner .three.now .slide-text h1 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+/* line 151, ../myproject/sass/index.scss */
+.slide-banner .four .slide-text {
+  position: absolute;
+  top: 34%;
+  left: 20%;
+}
+/* line 155, ../myproject/sass/index.scss */
+.slide-banner .four .slide-text h3 {
+  transition: 1s all;
+  transform: translateY(50px);
+  opacity: 0;
+}
+/* line 160, ../myproject/sass/index.scss */
+.slide-banner .four .slide-text h1 {
+  transition: 1s all;
+  transform: translateY(200px);
+  opacity: 0;
+}
+/* line 165, ../myproject/sass/index.scss */
+.slide-banner .four .slide-text a {
+  transition: 1.5s all;
+  transform: translateY(40px);
+  opacity: 0;
+}
+/* line 170, ../myproject/sass/index.scss */
+.slide-banner .four .slide-text .rotate-title {
+  position: absolute;
+  left: -188px;
+  top: 126px;
+  transform: rotate(-90deg) translateX(288px);
+  transition: 1s all;
+  opacity: 0;
+}
+/* line 179, ../myproject/sass/index.scss */
+.slide-banner .four.now .slide-text .rotate-title {
+  transform: rotate(-90deg) translateX(0px);
+  opacity: 1;
+}
+/* line 183, ../myproject/sass/index.scss */
+.slide-banner .four.now .slide-text h3,
+.slide-banner .four.now .slide-text h1,
+.slide-banner .four.now .slide-text a {
+  transform: none;
+  opacity: 1;
+}
+/* line 190, ../myproject/sass/index.scss */
+.slide-banner img {
+  height: 860px;
+  min-width: 1226px;
+}
+
+/* line 195, ../myproject/sass/index.scss */
+.banner-product {
+  padding: 80px 0;
+}
+/* line 198, ../myproject/sass/index.scss */
+.banner-product .item img {
+  width: 100%;
+  vertical-align: middle;
+  transition: 1s all;
+}
+/* line 203, ../myproject/sass/index.scss */
+.banner-product .item img:hover {
+  transform: scale(1.1);
+}
+/* line 207, ../myproject/sass/index.scss */
+.banner-product .item.lh {
+  height: 600px;
+  line-height: 600px;
+}
+
+/* line 212, ../myproject/sass/index.scss */
+.hot-product {
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+/* line 216, ../myproject/sass/index.scss */
+.hot-product .section {
+  position: relative;
+}
+/* line 219, ../myproject/sass/index.scss */
+.hot-product .section-wrapper-list {
+  width: 1226px;
+  overflow: hidden;
+}
+/* line 222, ../myproject/sass/index.scss */
+.hot-product .section-wrapper-list ul {
+  transform: translateX(-1226px);
+  width: 400%;
+  list-style: none;
+}
+/* line 226, ../myproject/sass/index.scss */
+.hot-product .section-wrapper-list ul .section-wrapper {
+  float: left;
+}
+/* line 231, ../myproject/sass/index.scss */
+.hot-product .product-item {
+  margin: 0 10px;
+  transition: 0.3s all;
+  width: 286px;
+  height: 100%;
+  float: left;
+}
+/* line 234, ../myproject/sass/index.scss */
+.hot-product .product-item .product-item-wrapper {
+  border-left: 1px solid #f6f6f4;
+  border-right: 1px solid #f6f6f4;
+}
+/* line 238, ../myproject/sass/index.scss */
+.hot-product .product-item .product-item-wrapper .item-detail a {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+/* line 249, ../myproject/sass/index.scss */
+.hot-product .product-item img {
+  width: 100%;
+  height: auto;
+}
+/* line 254, ../myproject/sass/index.scss */
+.hot-product .product-item:hover {
+  box-shadow: 1px 4px 20px -2px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+/* line 258, ../myproject/sass/index.scss */
+.hot-product .slick-arrow {
+  position: absolute;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  padding: 13px 21px;
+  background-color: white;
+}
+/* line 268, ../myproject/sass/index.scss */
+.hot-product .slick-prev {
+  top: 209px;
+  left: -17px;
+}
+/* line 272, ../myproject/sass/index.scss */
+.hot-product .slick-next {
+  top: 209px;
+  right: -9px;
+}
+
+/* line 277, ../myproject/sass/index.scss */
+.game-product {
+  padding: 80px 0;
+}
+/* line 280, ../myproject/sass/index.scss */
+.game-product a img {
+  height: 249px;
+  transition: 1s all;
+}
+/* line 284, ../myproject/sass/index.scss */
+.game-product a img:hover {
+  transform: scale(1.1);
+}
+
+/* line 289, ../myproject/sass/index.scss */
+.quality-product {
+  padding: 60px 0;
+}
+/* line 291, ../myproject/sass/index.scss */
+.quality-product h2 {
+  text-align: center;
+}
+/* line 294, ../myproject/sass/index.scss */
+.quality-product .item {
+  border: 1px solid #eee;
+  padding: 5px;
+  margin-bottom: 30px;
+  transition: 0.3s all;
+}
+/* line 299, ../myproject/sass/index.scss */
+.quality-product .item .left {
+  float: left;
+}
+/* line 301, ../myproject/sass/index.scss */
+.quality-product .item .left img {
+  max-width: 145px;
+  height: 145px;
+}
+/* line 306, ../myproject/sass/index.scss */
+.quality-product .item .right {
+  float: right;
+  width: 209px;
+}
+/* line 309, ../myproject/sass/index.scss */
+.quality-product .item .right .title {
+  padding: 7px 0;
+  cursor: pointer;
+}
+.quality-product .item .right .title a {
+  color: #000;
+}
+/* line 313, ../myproject/sass/index.scss */
+.quality-product .item .right p {
+  font-size: 14px;
+  padding-top: 6px;
+}
+/* line 317, ../myproject/sass/index.scss */
+.quality-product .item .right .item-price {
+  padding-top: 16px;
+}
+/* line 322, ../myproject/sass/index.scss */
+.quality-product .item:hover {
+  box-shadow: 1px 4px 20px -2px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+
+/* line 327, ../myproject/sass/index.scss */
+.call-to-action {
+  text-align: center;
+  color: white;
+  background: url(http://badpear-1300271589.cos.ap-shanghai.myqcloud.com/images/bottom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* line 334, ../myproject/sass/index.scss */
+.call-to-action .inner-wrapper {
+  padding: 80px 0;
+}
+/* line 337, ../myproject/sass/index.scss */
+.call-to-action .inner-wrapper .action-desc h2 {
+  font-size: 32px;
+}
+/* line 340, ../myproject/sass/index.scss */
+.call-to-action .inner-wrapper .action-desc p {
+  font-size: 16px;
+  padding: 6px;
+}
+/* line 345, ../myproject/sass/index.scss */
+.call-to-action .inner-wrapper .action-call {
+  padding: 20px;
+}
+/* line 347, ../myproject/sass/index.scss */
+.call-to-action .inner-wrapper .action-call a {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba(48, 133, 203, 0.3);
+}
+
+/* line 360, ../myproject/sass/index.scss */
+.section-title {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 23px;
+}
+
+/* line 365, ../myproject/sass/index.scss */
+.section-title::before,
+.section-title::after {
+  content: '::::::';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
